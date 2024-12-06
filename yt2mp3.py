@@ -22,7 +22,6 @@ def download_audio():
             'postprocessors': [{
                 'key': 'FFmpegExtractAudio',
                 'preferredcodec': 'mp3',
-                'preferredquality': '320',
             }],
         }
 
